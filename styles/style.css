@@ -9,7 +9,8 @@
   
   .header__links-list {
     display: flex;
-    gap: 31.48px;
+    gap: 32px;
+    font-style: normal;
     list-style: circle outside;
   }
   
@@ -20,6 +21,7 @@
   .header__link {
     text-underline-position: under;
     text-underline-offset: 0px;
+    font-size: 18px;
   }
   
   .header__link-active {
@@ -36,8 +38,10 @@
   }
   
   .header__address {
-    justify-self: end;
+    justify-self: start;
+    margin-left: 184px;
     font-style: normal;
+    font-size: 18px;
     line-height: 135%;
     text-underline-position: under;
   }
@@ -47,8 +51,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
-    /* ? */
     padding: 165px 50px 50px 50px; 
+    width: 1100px;
+    height: 757px;
     display: flex;
     flex-direction: column;
     margin-bottom: 135px;
@@ -72,9 +77,9 @@
     font-weight: 700;
     letter-spacing: 30px;
     text-transform: uppercase;
-    margin-bottom: 106px;
+    margin-bottom: 115px;
   }
-  
+
   .aligned-text {
     display: block;
     line-height: 115%;
@@ -83,7 +88,7 @@
   .aligned-text_center {
     text-align: center;
     line-height: 100%;
-    padding: 20px 60px 20px 0;
+    padding: 29px 60px 34px 59px;
   }
   
   .aligned-text_right {
@@ -92,7 +97,7 @@
   }
   
   .letter-spacing-extended {
-    letter-spacing: 60px;
+    letter-spacing: 30px;
   }
   
   .no-letter-spacing {
@@ -103,8 +108,8 @@
     z-index: 2;
     display: flex;
     align-items: center;
-    justify-content: end;
-    gap: 78px;
+    justify-content: start;
+    gap: 109px;
   }
   
   .cover__description-text {
@@ -130,7 +135,7 @@
   .lots {
     display: flex;
     flex-direction: column;
-    padding: 180px 0;
+    padding: 46px 24px 155px 24px;
   }
   
   .lots__heading {
@@ -148,7 +153,7 @@
   }
   
   .lots__card-list-item {
-    min-height: 450px;
+    min-height: 596px;
     flex-grow: 1;
   }
   
@@ -162,10 +167,11 @@
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 50px 40px;
+    padding: 48px 40px;
     height: 100%;
   }
   
@@ -211,10 +217,10 @@
   
   .about {
     display: grid;
-    grid-template-columns: 430px auto;
-    padding: 0 50px 180px 50px;
+    grid-template-columns: 287px auto;
+    padding: 0 27px 180px 71px;
     gap: 25px;
-    justify-items: center;
+    justify-items: left;
   }
   
   .about__logo {
@@ -269,6 +275,7 @@
     flex-direction: column;
     align-items: center;
     list-style: none;
+    font-size: 18px;
   }
   
   .footer__menu-link {
