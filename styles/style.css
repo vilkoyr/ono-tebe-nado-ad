@@ -1,7 +1,7 @@
 .header {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
-    padding: 0 50px;
+    padding: 90px 49px 92px 51px;
     align-items: center;
     height: 293px;
   }
@@ -109,7 +109,9 @@
     display: flex;
     align-items: center;
     justify-content: start;
-    gap: 109px;
+    gap: 106px;
+    width: 100%;
+    justify-content: space-between;
   }
   
   .cover__description-text {
@@ -117,7 +119,7 @@
     font-size: 22px;
     color: #fff;
     line-height: 127%;
-    word-spacing: 18px;
+    word-spacing: 18.6px;
     white-space: nowrap;
     text-transform: uppercase;
   }
@@ -126,7 +128,7 @@
     font-size: 22px;
     cursor: pointer;
     color: #fff;
-    padding: 12px 32px;
+    padding: 12px 31px;
     border: 1px solid #fff;
     text-transform: uppercase;
     background-color: transparent;
